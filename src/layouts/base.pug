@@ -1,4 +1,11 @@
 include ../components/header/header
+include ../components/main/main
+include ../components/button/button
+include ../components/slider/slider
+include ../components/modal/modal
+include ../components/counter/counter
+
+
 
 html
     head
@@ -7,5 +14,12 @@ html
             meta(name="viewport", content="width=device-width, initial-scale=1.0")
             title Vanilla Boilerplate
     body(data-barba="wrapper")
-        +header
         block content
+        .container
+            +main
+            +modal
+
+
+            
+        
+

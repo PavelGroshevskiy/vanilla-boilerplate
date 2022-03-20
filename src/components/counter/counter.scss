@@ -1,0 +1,26 @@
+.counter {
+    margin-top: 20px;
+    &-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+    &-btn_add {
+        border-radius: 100%;
+        background-color: rgb(78, 124, 223);
+        padding: 12px;
+        border: none;
+        color: white;
+    }
+    &-btn_sub {
+        border-radius: 100%;
+        background-color: rgb(78, 124, 223);
+        border: none;
+        color: white;
+        padding: 12px;
+    }
+    &-val {
+        margin: 0 53px;
+    }
+}
