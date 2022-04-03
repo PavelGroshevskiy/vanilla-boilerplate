@@ -1,12 +1,15 @@
 .swiper {
     width: 80%;
-    height: 60%;
+    height: 80%;
     margin-top: 150px;
-
+    &-wrapper {
+        height: 70% !important;
+    }
     &-slide {
         text-align: center;
-        font-size: 18px;
+        font-size: 30px;
         background: #fff;
+        height: 10%;
     }
     &-slide img {
         display: block;
